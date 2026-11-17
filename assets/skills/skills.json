@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-11-17T14:31:25.192Z",
+  "username": "ma-cook",
+  "repositoryCount": 26,
+  "forksExcluded": true,
+  "totals": {
+    "years": 6,
+    "commits": 1752,
+    "stars": 10
+  },
+  "languages": [
+    {
+      "name": "JavaScript",
+      "bytes": 5284303,
+      "share": 0.8513606892726165,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 702870,
+      "share": 0.11324026795379523,
+      "color": "#3178c6"
+    },
+    {
+      "name": "CSS",
+      "bytes": 138267,
+      "share": 0.022276369924975323,
+      "color": "#563d7c"
+    },
+    {
+      "name": "HTML",
+      "bytes": 36025,
+      "share": 0.005804032969162823,
+      "color": "#e34c26"
+    },
+    {
+      "name": "Rust",
+      "bytes": 13168,
+      "share": 0.0021215130086866354,
+      "color": "#dea584"
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 11234,
+      "share": 0.0018099238410985467,
+      "color": "#5391fe"
+    },
+    {
+      "name": "Shell",
+      "bytes": 9192,
+      "share": 0.0014809346579471108,
+      "color": "#89e051"
+    },
+    {
+      "name": "GLSL",
+      "bytes": 4270,
+      "share": 0.0006879450597730813,
+      "color": "#5686a5"
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 3893,
+      "share": 0.000627206116556582,
+      "color": "#336790"
+    },
+    {
+      "name": "HCL",
+      "bytes": 2616,
+      "share": 0.0004214670436455224,
+      "color": "#844FBA"
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 1053,
+      "share": 0.0001696501517426357,
+      "color": "#384d54"
+    }
+  ]
+}

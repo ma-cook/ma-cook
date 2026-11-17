@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 286" width="1200" height="286" role="img" aria-label="Languages used across public repositories">
+  <style>
+    text { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <rect width="1200" height="286" rx="14" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="1199" height="285" rx="14" fill="none" stroke="#30363d"/>
+  <text x="40" y="50" font-size="26" font-weight="700" fill="#e6edf3" letter-spacing="1">LANGUAGES IN PUBLIC REPOS</text>
+  <text x="40" y="76" font-size="14" fill="#8b949e">26 original repositories · ranked by bytes · updated 2026-11-17</text>
+    <rect x="40" y="104" width="208" height="38" rx="19" fill="#161b22" stroke="#f1e05a" stroke-opacity="0.55"/>
+    <circle cx="61" cy="123" r="6" fill="#f1e05a"/>
+    <text x="76" y="129" font-size="15" font-weight="600" fill="#e6edf3">JavaScript</text>
+    <text x="234" y="129" font-size="14" font-weight="600" text-anchor="end" fill="#f1e05a">85.1%</text>
+    <rect x="260" y="104" width="208" height="38" rx="19" fill="#161b22" stroke="#3178c6" stroke-opacity="0.55"/>
+    <circle cx="281" cy="123" r="6" fill="#3178c6"/>
+    <text x="296" y="129" font-size="15" font-weight="600" fill="#e6edf3">TypeScript</text>
+    <text x="454" y="129" font-size="14" font-weight="600" text-anchor="end" fill="#3178c6">11.3%</text>
+    <rect x="480" y="104" width="168" height="38" rx="19" fill="#161b22" stroke="#563d7c" stroke-opacity="0.55"/>
+    <circle cx="501" cy="123" r="6" fill="#563d7c"/>
+    <text x="516" y="129" font-size="15" font-weight="600" fill="#e6edf3">CSS</text>
+    <text x="634" y="129" font-size="14" font-weight="600" text-anchor="end" fill="#563d7c">2.2%</text>
+    <rect x="660" y="104" width="168" height="38" rx="19" fill="#161b22" stroke="#e34c26" stroke-opacity="0.55"/>
+    <circle cx="681" cy="123" r="6" fill="#e34c26"/>
+    <text x="696" y="129" font-size="15" font-weight="600" fill="#e6edf3">HTML</text>
+    <text x="814" y="129" font-size="14" font-weight="600" text-anchor="end" fill="#e34c26">0.6%</text>
+    <rect x="840" y="104" width="168" height="38" rx="19" fill="#161b22" stroke="#dea584" stroke-opacity="0.55"/>
+    <circle cx="861" cy="123" r="6" fill="#dea584"/>
+    <text x="876" y="129" font-size="15" font-weight="600" fill="#e6edf3">Rust</text>
+    <text x="994" y="129" font-size="14" font-weight="600" text-anchor="end" fill="#dea584">0.2%</text>
+    <rect x="40" y="158" width="198" height="38" rx="19" fill="#161b22" stroke="#5391fe" stroke-opacity="0.55"/>
+    <circle cx="61" cy="177" r="6" fill="#5391fe"/>
+    <text x="76" y="183" font-size="15" font-weight="600" fill="#e6edf3">PowerShell</text>
+    <text x="224" y="183" font-size="14" font-weight="600" text-anchor="end" fill="#5391fe">0.2%</text>
+    <rect x="250" y="158" width="168" height="38" rx="19" fill="#161b22" stroke="#89e051" stroke-opacity="0.55"/>
+    <circle cx="271" cy="177" r="6" fill="#89e051"/>
+    <text x="286" y="183" font-size="15" font-weight="600" fill="#e6edf3">Shell</text>
+    <text x="404" y="183" font-size="14" font-weight="600" text-anchor="end" fill="#89e051">0.1%</text>
+    <rect x="430" y="158" width="168" height="38" rx="19" fill="#161b22" stroke="#5686a5" stroke-opacity="0.55"/>
+    <circle cx="451" cy="177" r="6" fill="#5686a5"/>
+    <text x="466" y="183" font-size="15" font-weight="600" fill="#e6edf3">GLSL</text>
+    <text x="584" y="183" font-size="14" font-weight="600" text-anchor="end" fill="#5686a5">0.1%</text>
+    <rect x="610" y="158" width="168" height="38" rx="19" fill="#161b22" stroke="#336790" stroke-opacity="0.55"/>
+    <circle cx="631" cy="177" r="6" fill="#336790"/>
+    <text x="646" y="183" font-size="15" font-weight="600" fill="#e6edf3">PLpgSQL</text>
+    <text x="764" y="183" font-size="14" font-weight="600" text-anchor="end" fill="#336790">0.1%</text>
+    <rect x="790" y="158" width="168" height="38" rx="19" fill="#161b22" stroke="#844FBA" stroke-opacity="0.55"/>
+    <circle cx="811" cy="177" r="6" fill="#844FBA"/>
+    <text x="826" y="183" font-size="15" font-weight="600" fill="#e6edf3">HCL</text>
+    <text x="944" y="183" font-size="14" font-weight="600" text-anchor="end" fill="#844FBA">0.0%</text>
+    <rect x="40" y="212" width="198" height="38" rx="19" fill="#161b22" stroke="#384d54" stroke-opacity="0.55"/>
+    <circle cx="61" cy="231" r="6" fill="#384d54"/>
+    <text x="76" y="237" font-size="15" font-weight="600" fill="#e6edf3">Dockerfile</text>
+    <text x="224" y="237" font-size="14" font-weight="600" text-anchor="end" fill="#384d54">0.0%</text>
+</svg>

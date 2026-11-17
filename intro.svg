@@ -1,0 +1,337 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Animated neon developer titles over sweeping lasers">
+  <defs>
+    <filter id="textGlow" x="-60%" y="-120%" width="220%" height="340%">
+      <feGaussianBlur stdDeviation="10" result="wide"/>
+      <feGaussianBlur stdDeviation="3" result="tight"/>
+      <feMerge result="glow">
+        <feMergeNode in="wide"/>
+        <feMergeNode in="tight"/>
+      </feMerge>
+      <feComponentTransfer in="glow" result="softGlow">
+        <feFuncA type="linear" slope="0.5"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="softGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="laserGlow" x="-20%" y="-500%" width="140%" height="1100%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <g id="laser" filter="url(#laserGlow)">
+      <line x1="0" y1="0" x2="520" y2="0" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+      <line x1="0" y1="0" x2="520" y2="0" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" opacity="0.9"/>
+      <circle cx="520" cy="0" r="5" fill="#ffffff"/>
+    </g>
+
+    <filter id="shipGlow" x="-80%" y="-300%" width="260%" height="700%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <g id="ship">
+      <path d="M-34,0 L-9,0" stroke="currentColor" stroke-width="1.6" opacity="0.35"/>
+      <path d="M-9,-2 L-22,0 L-9,2 Z" fill="currentColor" opacity="0.8"/>
+      <path d="M16,0 L-9,-7 L-4,0 L-9,7 Z" fill="#d3d9e0" stroke="#e6ebf0" stroke-width="1.2" stroke-linejoin="round" filter="url(#shipGlow)"/>
+    </g>
+  </defs>
+
+  <style>
+    .laser { animation-timing-function: linear; animation-iteration-count: infinite; opacity: 0; }
+    .lr { animation-name: laserRight; }
+    .ll { animation-name: laserLeft; }
+    .l5 { animation-duration: 5s; }
+    .l7 { animation-duration: 7s; }
+
+    @keyframes laserRight {
+      0%, 18%  { opacity: 0; transform: translateX(-900px); }
+      19%      { opacity: 1; transform: translateX(-900px); }
+      28%      { opacity: 1; transform: translateX(2100px); }
+      29%,100% { opacity: 0; transform: translateX(2100px); }
+    }
+    @keyframes laserLeft {
+      0%, 18%  { opacity: 0; transform: translateX(2100px); }
+      19%      { opacity: 1; transform: translateX(2100px); }
+      28%      { opacity: 1; transform: translateX(-900px); }
+      29%,100% { opacity: 0; transform: translateX(-900px); }
+    }
+
+    .ship { animation-duration: 9s; animation-timing-function: linear; animation-iteration-count: infinite; transform-origin: 0 0; }
+    .s1 { animation-name: ship1; }
+    .s2 { animation-name: ship2; }
+    .s3 { animation-name: ship3; }
+    .s4 { animation-name: ship4; }
+    .s5 { animation-name: ship5; }
+    .s6 { animation-name: ship6; }
+    .s7 { animation-name: ship7; }
+    .s8 { animation-name: ship8; }
+
+    @keyframes ship1 {
+      0%   { opacity: 0; transform: translate(-140px,290px) rotate(0deg); }
+      4%   { opacity: 1; }
+      55%  { transform: translate(860px,290px) rotate(0deg); }
+      58%  { opacity: 1; transform: translate(910px,270px) rotate(-20deg); }
+      100% { opacity: 0; transform: translate(1750px,-560px) rotate(-25deg); }
+    }
+    @keyframes ship2 {
+      0%   { opacity: 0; transform: translate(-140px,310px) rotate(0deg); }
+      4%   { opacity: 1; }
+      55%  { transform: translate(860px,310px) rotate(0deg); }
+      58%  { opacity: 1; transform: translate(910px,330px) rotate(20deg); }
+      100% { opacity: 0; transform: translate(1800px,1280px) rotate(25deg); }
+    }
+    @keyframes ship3 {
+      0%   { opacity: 0; transform: translate(-140px,330px) rotate(0deg); }
+      4%   { opacity: 1; }
+      55%  { transform: translate(850px,330px) rotate(0deg); }
+      58%  { opacity: 1; transform: translate(850px,300px) rotate(-90deg); }
+      100% { opacity: 0; transform: translate(930px,-850px) rotate(-90deg); }
+    }
+    @keyframes ship4 {
+      0%   { opacity: 0; transform: translate(-140px,350px) rotate(0deg); }
+      4%   { opacity: 1; }
+      55%  { transform: translate(850px,350px) rotate(0deg); }
+      58%  { opacity: 1; transform: translate(850px,380px) rotate(90deg); }
+      100% { opacity: 0; transform: translate(800px,1500px) rotate(90deg); }
+    }
+    @keyframes ship5 {
+      0%   { opacity: 0; transform: translate(-140px,370px) rotate(0deg); }
+      4%   { opacity: 1; }
+      55%  { transform: translate(820px,370px) rotate(0deg); }
+      58%  { opacity: 1; transform: translate(790px,390px) rotate(-150deg); }
+      100% { opacity: 0; transform: translate(-700px,-800px) rotate(-150deg); }
+    }
+    @keyframes ship6 {
+      0%   { opacity: 0; transform: translate(-140px,390px) rotate(0deg); }
+      4%   { opacity: 1; }
+      55%  { transform: translate(820px,390px) rotate(0deg); }
+      58%  { opacity: 1; transform: translate(790px,410px) rotate(150deg); }
+      100% { opacity: 0; transform: translate(-750px,1500px) rotate(150deg); }
+    }
+    @keyframes ship7 {
+      0%   { opacity: 0; transform: translate(-140px,410px) rotate(0deg); }
+      4%   { opacity: 1; }
+      55%  { transform: translate(820px,410px) rotate(0deg); }
+      58%  { opacity: 1; transform: translate(880px,405px) rotate(-8deg); }
+      100% { opacity: 0; transform: translate(2000px,140px) rotate(-10deg); }
+    }
+    @keyframes ship8 {
+      0%   { opacity: 0; transform: translate(-140px,430px) rotate(0deg); }
+      4%   { opacity: 1; }
+      55%  { transform: translate(820px,430px) rotate(0deg); }
+      58%  { opacity: 1; transform: translate(860px,450px) rotate(55deg); }
+      100% { opacity: 0; transform: translate(1500px,1500px) rotate(60deg); }
+    }
+
+    text {
+      text-anchor: middle;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 66px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      fill: #36dd52;
+      filter: url(#textGlow);
+      transform-box: fill-box;
+      transform-origin: center;
+      animation-duration: 12s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      opacity: 0;
+    }
+
+    .t1 { animation-name: showOne; }
+    .t2 { animation-name: showTwo; }
+    .t3 { animation-name: showThree; }
+
+    @keyframes showOne {
+      0%   { opacity: 0; transform: scale(.9); }
+      4%   { opacity: 1; transform: scale(1); }
+      25%  { opacity: 1; transform: scale(1); }
+      31%  { opacity: 0; transform: scale(1.1); }
+      100% { opacity: 0; transform: scale(1.1); }
+    }
+    @keyframes showTwo {
+      0%, 31% { opacity: 0; transform: scale(.9); }
+      35%     { opacity: 1; transform: scale(1); }
+      58%     { opacity: 1; transform: scale(1); }
+      64%     { opacity: 0; transform: scale(1.1); }
+      100%    { opacity: 0; transform: scale(1.1); }
+    }
+    @keyframes showThree {
+      0%, 64% { opacity: 0; transform: scale(.9); }
+      68%     { opacity: 1; transform: scale(1); }
+      91%     { opacity: 1; transform: scale(1); }
+      97%     { opacity: 0; transform: scale(1.1); }
+      100%    { opacity: 0; transform: scale(1.1); }
+    }
+  </style>
+
+  <rect width="1200" height="700" fill="#000000"/>
+
+  <g aria-hidden="true">
+    <g class="laser lr l5" style="animation-delay:-1.2s; color:#ff2d6f">
+      <g transform="translate(0,120)"><use href="#laser"/></g>
+    </g>
+    <g class="laser ll l7" style="animation-delay:-3.4s; color:#00eaff">
+      <g transform="translate(0,255)"><use href="#laser" transform="scale(-1,1)"/></g>
+    </g>
+    <g class="laser lr l7" style="animation-delay:-2.1s; color:#ff9d00">
+      <g transform="translate(0,455)"><use href="#laser"/></g>
+    </g>
+    <g class="laser ll l5" style="animation-delay:-0.4s; color:#39ff14">
+      <g transform="translate(0,590)"><use href="#laser" transform="scale(-1,1)"/></g>
+    </g>
+    <g class="laser lr l5" style="animation-delay:-4.3s; color:#00eaff">
+      <g transform="translate(0,55)"><use href="#laser"/></g>
+    </g>
+  </g>
+
+  <g aria-hidden="true" style="color:#cfd6dd">
+    <g class="ship s1"><use href="#ship" transform="scale(.75)"/></g>
+    <g class="ship s2"><use href="#ship" transform="scale(.7)"/></g>
+    <g class="ship s3"><use href="#ship" transform="scale(.8)"/></g>
+    <g class="ship s4"><use href="#ship" transform="scale(.65)"/></g>
+    <g class="ship s5"><use href="#ship" transform="scale(.7)"/></g>
+    <g class="ship s6"><use href="#ship" transform="scale(.8)"/></g>
+    <g class="ship s7"><use href="#ship" transform="scale(.6)"/></g>
+    <g class="ship s8"><use href="#ship" transform="scale(.75)"/></g>
+  </g>
+
+  <g>
+    <text class="t1" x="600" y="360">Full Stack Developer</text>
+    <text class="t2" x="600" y="360">Platform Developer</text>
+    <text class="t3" x="600" y="360">AI Integration</text>
+  </g>
+  <style id="stat-styles">
+    .stat-label { fill: #9aa4ad; font-size: 16px; font-weight: 600; letter-spacing: 3px; }
+    .stat-value { fill: #36dd52; font-size: 44px; font-weight: 700; filter: url(#textGlow); opacity: 0; animation-duration: 1.6s; animation-timing-function: step-end; animation-fill-mode: forwards; }
+    .stat-y-0 { animation-name: sf-y-0; }
+    @keyframes sf-y-0 { 0%, 14.28% { opacity: 1; } 14.29%, 100% { opacity: 0; } }
+    .stat-y-1 { animation-name: sf-y-1; }
+    @keyframes sf-y-1 { 0%, 14.28% { opacity: 0; } 14.29%, 28.56% { opacity: 1; } 28.57%, 100% { opacity: 0; } }
+    .stat-y-2 { animation-name: sf-y-2; }
+    @keyframes sf-y-2 { 0%, 28.56% { opacity: 0; } 28.57%, 42.85% { opacity: 1; } 42.86%, 100% { opacity: 0; } }
+    .stat-y-3 { animation-name: sf-y-3; }
+    @keyframes sf-y-3 { 0%, 42.85% { opacity: 0; } 42.86%, 57.13% { opacity: 1; } 57.14%, 100% { opacity: 0; } }
+    .stat-y-4 { animation-name: sf-y-4; }
+    @keyframes sf-y-4 { 0%, 57.13% { opacity: 0; } 57.14%, 71.42% { opacity: 1; } 71.43%, 100% { opacity: 0; } }
+    .stat-y-5 { animation-name: sf-y-5; }
+    @keyframes sf-y-5 { 0%, 71.42% { opacity: 0; } 71.43%, 85.70% { opacity: 1; } 85.71%, 100% { opacity: 0; } }
+    .stat-y-6 { animation-name: sf-y-6; }
+    @keyframes sf-y-6 { 0%, 85.70% { opacity: 0; } 85.71%, 100% { opacity: 1; } }
+    .stat-c-0 { animation-name: sf-c-0; }
+    @keyframes sf-c-0 { 0%, 6.24% { opacity: 1; } 6.25%, 100% { opacity: 0; } }
+    .stat-c-1 { animation-name: sf-c-1; }
+    @keyframes sf-c-1 { 0%, 6.24% { opacity: 0; } 6.25%, 12.49% { opacity: 1; } 12.50%, 100% { opacity: 0; } }
+    .stat-c-2 { animation-name: sf-c-2; }
+    @keyframes sf-c-2 { 0%, 12.49% { opacity: 0; } 12.50%, 18.74% { opacity: 1; } 18.75%, 100% { opacity: 0; } }
+    .stat-c-3 { animation-name: sf-c-3; }
+    @keyframes sf-c-3 { 0%, 18.74% { opacity: 0; } 18.75%, 24.99% { opacity: 1; } 25.00%, 100% { opacity: 0; } }
+    .stat-c-4 { animation-name: sf-c-4; }
+    @keyframes sf-c-4 { 0%, 24.99% { opacity: 0; } 25.00%, 31.24% { opacity: 1; } 31.25%, 100% { opacity: 0; } }
+    .stat-c-5 { animation-name: sf-c-5; }
+    @keyframes sf-c-5 { 0%, 31.24% { opacity: 0; } 31.25%, 37.49% { opacity: 1; } 37.50%, 100% { opacity: 0; } }
+    .stat-c-6 { animation-name: sf-c-6; }
+    @keyframes sf-c-6 { 0%, 37.49% { opacity: 0; } 37.50%, 43.74% { opacity: 1; } 43.75%, 100% { opacity: 0; } }
+    .stat-c-7 { animation-name: sf-c-7; }
+    @keyframes sf-c-7 { 0%, 43.74% { opacity: 0; } 43.75%, 49.99% { opacity: 1; } 50.00%, 100% { opacity: 0; } }
+    .stat-c-8 { animation-name: sf-c-8; }
+    @keyframes sf-c-8 { 0%, 49.99% { opacity: 0; } 50.00%, 56.24% { opacity: 1; } 56.25%, 100% { opacity: 0; } }
+    .stat-c-9 { animation-name: sf-c-9; }
+    @keyframes sf-c-9 { 0%, 56.24% { opacity: 0; } 56.25%, 62.49% { opacity: 1; } 62.50%, 100% { opacity: 0; } }
+    .stat-c-10 { animation-name: sf-c-10; }
+    @keyframes sf-c-10 { 0%, 62.49% { opacity: 0; } 62.50%, 68.74% { opacity: 1; } 68.75%, 100% { opacity: 0; } }
+    .stat-c-11 { animation-name: sf-c-11; }
+    @keyframes sf-c-11 { 0%, 68.74% { opacity: 0; } 68.75%, 74.99% { opacity: 1; } 75.00%, 100% { opacity: 0; } }
+    .stat-c-12 { animation-name: sf-c-12; }
+    @keyframes sf-c-12 { 0%, 74.99% { opacity: 0; } 75.00%, 81.24% { opacity: 1; } 81.25%, 100% { opacity: 0; } }
+    .stat-c-13 { animation-name: sf-c-13; }
+    @keyframes sf-c-13 { 0%, 81.24% { opacity: 0; } 81.25%, 87.49% { opacity: 1; } 87.50%, 100% { opacity: 0; } }
+    .stat-c-14 { animation-name: sf-c-14; }
+    @keyframes sf-c-14 { 0%, 87.49% { opacity: 0; } 87.50%, 93.74% { opacity: 1; } 93.75%, 100% { opacity: 0; } }
+    .stat-c-15 { animation-name: sf-c-15; }
+    @keyframes sf-c-15 { 0%, 93.74% { opacity: 0; } 93.75%, 100% { opacity: 1; } }
+    .stat-s-0 { animation-name: sf-s-0; }
+    @keyframes sf-s-0 { 0%, 9.08% { opacity: 1; } 9.09%, 100% { opacity: 0; } }
+    .stat-s-1 { animation-name: sf-s-1; }
+    @keyframes sf-s-1 { 0%, 9.08% { opacity: 0; } 9.09%, 18.17% { opacity: 1; } 18.18%, 100% { opacity: 0; } }
+    .stat-s-2 { animation-name: sf-s-2; }
+    @keyframes sf-s-2 { 0%, 18.17% { opacity: 0; } 18.18%, 27.26% { opacity: 1; } 27.27%, 100% { opacity: 0; } }
+    .stat-s-3 { animation-name: sf-s-3; }
+    @keyframes sf-s-3 { 0%, 27.26% { opacity: 0; } 27.27%, 36.35% { opacity: 1; } 36.36%, 100% { opacity: 0; } }
+    .stat-s-4 { animation-name: sf-s-4; }
+    @keyframes sf-s-4 { 0%, 36.35% { opacity: 0; } 36.36%, 45.44% { opacity: 1; } 45.45%, 100% { opacity: 0; } }
+    .stat-s-5 { animation-name: sf-s-5; }
+    @keyframes sf-s-5 { 0%, 45.44% { opacity: 0; } 45.45%, 54.54% { opacity: 1; } 54.55%, 100% { opacity: 0; } }
+    .stat-s-6 { animation-name: sf-s-6; }
+    @keyframes sf-s-6 { 0%, 54.54% { opacity: 0; } 54.55%, 63.63% { opacity: 1; } 63.64%, 100% { opacity: 0; } }
+    .stat-s-7 { animation-name: sf-s-7; }
+    @keyframes sf-s-7 { 0%, 63.63% { opacity: 0; } 63.64%, 72.72% { opacity: 1; } 72.73%, 100% { opacity: 0; } }
+    .stat-s-8 { animation-name: sf-s-8; }
+    @keyframes sf-s-8 { 0%, 72.72% { opacity: 0; } 72.73%, 81.81% { opacity: 1; } 81.82%, 100% { opacity: 0; } }
+    .stat-s-9 { animation-name: sf-s-9; }
+    @keyframes sf-s-9 { 0%, 81.81% { opacity: 0; } 81.82%, 90.90% { opacity: 1; } 90.91%, 100% { opacity: 0; } }
+    .stat-s-10 { animation-name: sf-s-10; }
+    @keyframes sf-s-10 { 0%, 90.90% { opacity: 0; } 90.91%, 100% { opacity: 1; } }
+  </style>
+  <g id="profile-stats" aria-label="Live GitHub statistics">
+    <rect x="140" y="580" width="920" height="100" rx="16" fill="#050505" fill-opacity="0.82" stroke="#36dd52" stroke-opacity="0.25"/>
+    <line x1="450" y1="602" x2="450" y2="658" stroke="#36dd52" stroke-opacity="0.18"/>
+    <line x1="750" y1="602" x2="750" y2="658" stroke="#36dd52" stroke-opacity="0.18"/>
+    <g text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+      <text class="stat-label" x="295" y="618">YEARS ON GITHUB</text>
+      <g>
+        <text class="stat-value stat-y-0" x="295" y="668">0</text>
+        <text class="stat-value stat-y-1" x="295" y="668">1</text>
+        <text class="stat-value stat-y-2" x="295" y="668">2</text>
+        <text class="stat-value stat-y-3" x="295" y="668">3</text>
+        <text class="stat-value stat-y-4" x="295" y="668">4</text>
+        <text class="stat-value stat-y-5" x="295" y="668">5</text>
+        <text class="stat-value stat-y-6" x="295" y="668">6</text>
+      </g>
+      <text class="stat-label" x="600" y="618">COMMITS</text>
+      <g>
+        <text class="stat-value stat-c-0" x="600" y="668">0</text>
+        <text class="stat-value stat-c-1" x="600" y="668">117</text>
+        <text class="stat-value stat-c-2" x="600" y="668">234</text>
+        <text class="stat-value stat-c-3" x="600" y="668">350</text>
+        <text class="stat-value stat-c-4" x="600" y="668">467</text>
+        <text class="stat-value stat-c-5" x="600" y="668">584</text>
+        <text class="stat-value stat-c-6" x="600" y="668">701</text>
+        <text class="stat-value stat-c-7" x="600" y="668">818</text>
+        <text class="stat-value stat-c-8" x="600" y="668">934</text>
+        <text class="stat-value stat-c-9" x="600" y="668">1,051</text>
+        <text class="stat-value stat-c-10" x="600" y="668">1,168</text>
+        <text class="stat-value stat-c-11" x="600" y="668">1,285</text>
+        <text class="stat-value stat-c-12" x="600" y="668">1,402</text>
+        <text class="stat-value stat-c-13" x="600" y="668">1,518</text>
+        <text class="stat-value stat-c-14" x="600" y="668">1,635</text>
+        <text class="stat-value stat-c-15" x="600" y="668">1,752</text>
+      </g>
+      <text class="stat-label" x="905" y="618">REPO STARS</text>
+      <g>
+        <text class="stat-value stat-s-0" x="905" y="668">0</text>
+        <text class="stat-value stat-s-1" x="905" y="668">1</text>
+        <text class="stat-value stat-s-2" x="905" y="668">2</text>
+        <text class="stat-value stat-s-3" x="905" y="668">3</text>
+        <text class="stat-value stat-s-4" x="905" y="668">4</text>
+        <text class="stat-value stat-s-5" x="905" y="668">5</text>
+        <text class="stat-value stat-s-6" x="905" y="668">6</text>
+        <text class="stat-value stat-s-7" x="905" y="668">7</text>
+        <text class="stat-value stat-s-8" x="905" y="668">8</text>
+        <text class="stat-value stat-s-9" x="905" y="668">9</text>
+        <text class="stat-value stat-s-10" x="905" y="668">10</text>
+      </g>
+    </g>
+  </g>
+</svg>
