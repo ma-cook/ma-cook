@@ -150,8 +150,8 @@ function percent(value) {
 function buildStatStyles(counters) {
   const lines = [
     '  <style id="stat-styles">',
-    '    .stat-label { fill: #9aa4ad; font-size: 16px; font-weight: 600; letter-spacing: 3px; }',
-    '    .stat-value { fill: #36dd52; font-size: 44px; font-weight: 700; filter: url(#textGlow); opacity: 0; animation-duration: 1.6s; animation-timing-function: step-end; animation-fill-mode: forwards; }',
+    '    .stat-label { fill: #cfd6dd; font-size: 16px; font-weight: 600; letter-spacing: 3px; opacity: 1; animation: none; }',
+    '    .stat-value { fill: #36dd52; font-size: 44px; font-weight: 700; filter: url(#textGlow); opacity: 0; animation-duration: 1.6s; animation-timing-function: step-end; animation-iteration-count: 1; animation-fill-mode: forwards; }',
   ];
 
   for (const counter of counters) {

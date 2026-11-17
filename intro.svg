@@ -213,8 +213,8 @@
     <text class="t3" x="600" y="360">AI Integration</text>
   </g>
   <style id="stat-styles">
-    .stat-label { fill: #9aa4ad; font-size: 16px; font-weight: 600; letter-spacing: 3px; }
-    .stat-value { fill: #36dd52; font-size: 44px; font-weight: 700; filter: url(#textGlow); opacity: 0; animation-duration: 1.6s; animation-timing-function: step-end; animation-fill-mode: forwards; }
+    .stat-label { fill: #cfd6dd; font-size: 16px; font-weight: 600; letter-spacing: 3px; opacity: 1; animation: none; }
+    .stat-value { fill: #36dd52; font-size: 44px; font-weight: 700; filter: url(#textGlow); opacity: 0; animation-duration: 1.6s; animation-timing-function: step-end; animation-iteration-count: 1; animation-fill-mode: forwards; }
     .stat-y-0 { animation-name: sf-y-0; }
     @keyframes sf-y-0 { 0%, 14.28% { opacity: 1; } 14.29%, 100% { opacity: 0; } }
     .stat-y-1 { animation-name: sf-y-1; }
@@ -304,19 +304,19 @@
         <text class="stat-value stat-c-0" x="600" y="668">0</text>
         <text class="stat-value stat-c-1" x="600" y="668">117</text>
         <text class="stat-value stat-c-2" x="600" y="668">234</text>
-        <text class="stat-value stat-c-3" x="600" y="668">350</text>
+        <text class="stat-value stat-c-3" x="600" y="668">351</text>
         <text class="stat-value stat-c-4" x="600" y="668">467</text>
         <text class="stat-value stat-c-5" x="600" y="668">584</text>
         <text class="stat-value stat-c-6" x="600" y="668">701</text>
         <text class="stat-value stat-c-7" x="600" y="668">818</text>
-        <text class="stat-value stat-c-8" x="600" y="668">934</text>
-        <text class="stat-value stat-c-9" x="600" y="668">1,051</text>
-        <text class="stat-value stat-c-10" x="600" y="668">1,168</text>
-        <text class="stat-value stat-c-11" x="600" y="668">1,285</text>
+        <text class="stat-value stat-c-8" x="600" y="668">935</text>
+        <text class="stat-value stat-c-9" x="600" y="668">1,052</text>
+        <text class="stat-value stat-c-10" x="600" y="668">1,169</text>
+        <text class="stat-value stat-c-11" x="600" y="668">1,286</text>
         <text class="stat-value stat-c-12" x="600" y="668">1,402</text>
-        <text class="stat-value stat-c-13" x="600" y="668">1,518</text>
-        <text class="stat-value stat-c-14" x="600" y="668">1,635</text>
-        <text class="stat-value stat-c-15" x="600" y="668">1,752</text>
+        <text class="stat-value stat-c-13" x="600" y="668">1,519</text>
+        <text class="stat-value stat-c-14" x="600" y="668">1,636</text>
+        <text class="stat-value stat-c-15" x="600" y="668">1,753</text>
       </g>
       <text class="stat-label" x="905" y="618">REPO STARS</text>
       <g>
