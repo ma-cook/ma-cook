@@ -1,78 +1,78 @@
 {
-  "generatedAt": "2026-11-17T14:54:59.917Z",
+  "generatedAt": "2026-11-18T06:29:44.975Z",
   "username": "ma-cook",
   "repositoryCount": 26,
   "forksExcluded": true,
   "totals": {
     "years": 6,
-    "commits": 1753,
+    "commits": 1677,
     "stars": 10
   },
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 5294621,
-      "share": 0.8516073691587335,
+      "bytes": 5294680,
+      "share": 0.8516087773600881,
       "color": "#f1e05a"
     },
     {
       "name": "TypeScript",
       "bytes": 702870,
-      "share": 0.11305233586324667,
+      "share": 0.11305126303064304,
       "color": "#3178c6"
     },
     {
       "name": "CSS",
       "bytes": 138267,
-      "share": 0.022239400348291333,
+      "share": 0.02223918930308296,
       "color": "#563d7c"
     },
     {
       "name": "HTML",
       "bytes": 36025,
-      "share": 0.005794400670783305,
+      "share": 0.005794345683666846,
       "color": "#e34c26"
     },
     {
       "name": "Rust",
       "bytes": 13168,
-      "share": 0.002117992173015255,
+      "share": 0.0021179720739077034,
       "color": "#dea584"
     },
     {
       "name": "PowerShell",
       "bytes": 11234,
-      "share": 0.0018069201147974919,
+      "share": 0.0018069029676700441,
       "color": "#5391fe"
     },
     {
       "name": "Shell",
       "bytes": 9192,
-      "share": 0.0014784769178581578,
+      "share": 0.001478462887557686,
       "color": "#89e051"
     },
     {
       "name": "GLSL",
       "bytes": 4270,
-      "share": 0.0006868033550102627,
+      "share": 0.0006867968374533638,
       "color": "#5686a5"
     },
     {
       "name": "PLpgSQL",
       "bytes": 3893,
-      "share": 0.0006261652133618156,
+      "share": 0.0006261592712426101,
       "color": "#336790"
     },
     {
       "name": "HCL",
       "bytes": 2616,
-      "share": 0.0004207675823669431,
+      "share": 0.0004207635894093676,
       "color": "#844FBA"
     },
     {
       "name": "Dockerfile",
       "bytes": 1053,
-      "share": 0.0001693686025353177,
+      "share": 0.00016936699527831195,
       "color": "#384d54"
     }
   ]
