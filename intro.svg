@@ -304,33 +304,33 @@
         <text class="stat-value stat-c-0" x="600" y="668">0</text>
         <text class="stat-value stat-c-1" x="600" y="668">113</text>
         <text class="stat-value stat-c-2" x="600" y="668">226</text>
-        <text class="stat-value stat-c-3" x="600" y="668">339</text>
-        <text class="stat-value stat-c-4" x="600" y="668">452</text>
-        <text class="stat-value stat-c-5" x="600" y="668">565</text>
-        <text class="stat-value stat-c-6" x="600" y="668">678</text>
-        <text class="stat-value stat-c-7" x="600" y="668">791</text>
-        <text class="stat-value stat-c-8" x="600" y="668">903</text>
-        <text class="stat-value stat-c-9" x="600" y="668">1,016</text>
-        <text class="stat-value stat-c-10" x="600" y="668">1,129</text>
-        <text class="stat-value stat-c-11" x="600" y="668">1,242</text>
-        <text class="stat-value stat-c-12" x="600" y="668">1,355</text>
-        <text class="stat-value stat-c-13" x="600" y="668">1,468</text>
-        <text class="stat-value stat-c-14" x="600" y="668">1,581</text>
-        <text class="stat-value stat-c-15" x="600" y="668">1,694</text>
+        <text class="stat-value stat-c-3" x="600" y="668">340</text>
+        <text class="stat-value stat-c-4" x="600" y="668">453</text>
+        <text class="stat-value stat-c-5" x="600" y="668">566</text>
+        <text class="stat-value stat-c-6" x="600" y="668">679</text>
+        <text class="stat-value stat-c-7" x="600" y="668">792</text>
+        <text class="stat-value stat-c-8" x="600" y="668">906</text>
+        <text class="stat-value stat-c-9" x="600" y="668">1,019</text>
+        <text class="stat-value stat-c-10" x="600" y="668">1,132</text>
+        <text class="stat-value stat-c-11" x="600" y="668">1,245</text>
+        <text class="stat-value stat-c-12" x="600" y="668">1,358</text>
+        <text class="stat-value stat-c-13" x="600" y="668">1,472</text>
+        <text class="stat-value stat-c-14" x="600" y="668">1,585</text>
+        <text class="stat-value stat-c-15" x="600" y="668">1,698</text>
       </g>
       <text class="stat-label" x="905" y="618">REPO STARS</text>
       <g>
         <text class="stat-value stat-s-0" x="905" y="668">0</text>
         <text class="stat-value stat-s-1" x="905" y="668">1</text>
         <text class="stat-value stat-s-2" x="905" y="668">2</text>
-        <text class="stat-value stat-s-3" x="905" y="668">3</text>
-        <text class="stat-value stat-s-4" x="905" y="668">4</text>
-        <text class="stat-value stat-s-5" x="905" y="668">5</text>
-        <text class="stat-value stat-s-6" x="905" y="668">6</text>
-        <text class="stat-value stat-s-7" x="905" y="668">7</text>
-        <text class="stat-value stat-s-8" x="905" y="668">8</text>
-        <text class="stat-value stat-s-9" x="905" y="668">9</text>
-        <text class="stat-value stat-s-10" x="905" y="668">10</text>
+        <text class="stat-value stat-s-3" x="905" y="668">4</text>
+        <text class="stat-value stat-s-4" x="905" y="668">5</text>
+        <text class="stat-value stat-s-5" x="905" y="668">6</text>
+        <text class="stat-value stat-s-6" x="905" y="668">7</text>
+        <text class="stat-value stat-s-7" x="905" y="668">8</text>
+        <text class="stat-value stat-s-8" x="905" y="668">10</text>
+        <text class="stat-value stat-s-9" x="905" y="668">11</text>
+        <text class="stat-value stat-s-10" x="905" y="668">12</text>
       </g>
     </g>
   </g>
