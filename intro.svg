@@ -303,20 +303,20 @@
       <g>
         <text class="stat-value stat-c-0" x="600" y="668">0</text>
         <text class="stat-value stat-c-1" x="600" y="668">113</text>
-        <text class="stat-value stat-c-2" x="600" y="668">226</text>
+        <text class="stat-value stat-c-2" x="600" y="668">227</text>
         <text class="stat-value stat-c-3" x="600" y="668">340</text>
-        <text class="stat-value stat-c-4" x="600" y="668">453</text>
-        <text class="stat-value stat-c-5" x="600" y="668">566</text>
-        <text class="stat-value stat-c-6" x="600" y="668">679</text>
-        <text class="stat-value stat-c-7" x="600" y="668">792</text>
-        <text class="stat-value stat-c-8" x="600" y="668">906</text>
-        <text class="stat-value stat-c-9" x="600" y="668">1,019</text>
-        <text class="stat-value stat-c-10" x="600" y="668">1,132</text>
-        <text class="stat-value stat-c-11" x="600" y="668">1,245</text>
-        <text class="stat-value stat-c-12" x="600" y="668">1,358</text>
-        <text class="stat-value stat-c-13" x="600" y="668">1,472</text>
-        <text class="stat-value stat-c-14" x="600" y="668">1,585</text>
-        <text class="stat-value stat-c-15" x="600" y="668">1,698</text>
+        <text class="stat-value stat-c-4" x="600" y="668">454</text>
+        <text class="stat-value stat-c-5" x="600" y="668">567</text>
+        <text class="stat-value stat-c-6" x="600" y="668">681</text>
+        <text class="stat-value stat-c-7" x="600" y="668">794</text>
+        <text class="stat-value stat-c-8" x="600" y="668">908</text>
+        <text class="stat-value stat-c-9" x="600" y="668">1,021</text>
+        <text class="stat-value stat-c-10" x="600" y="668">1,135</text>
+        <text class="stat-value stat-c-11" x="600" y="668">1,248</text>
+        <text class="stat-value stat-c-12" x="600" y="668">1,362</text>
+        <text class="stat-value stat-c-13" x="600" y="668">1,475</text>
+        <text class="stat-value stat-c-14" x="600" y="668">1,589</text>
+        <text class="stat-value stat-c-15" x="600" y="668">1,702</text>
       </g>
       <text class="stat-label" x="905" y="618">REPO STARS</text>
       <g>
