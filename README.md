@@ -1,5 +1,5 @@
 <div align="center">
-
+<a href="https://ghcommits.com"><img src="https://ghcommits.com/api/badge/ma-cook.svg" alt="GitHub Commits Badge" /></a>
 <a href="./intro.svg">
   <img src="./intro.svg" alt="Animated intro showing developer roles and GitHub stats" width="100%">
 </a>
