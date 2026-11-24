@@ -1,78 +1,78 @@
 {
-  "generatedAt": "2026-11-23T06:39:54.773Z",
+  "generatedAt": "2026-11-24T06:31:06.140Z",
   "username": "ma-cook",
   "repositoryCount": 27,
   "forksExcluded": true,
   "totals": {
     "years": 6,
-    "commits": 1702,
+    "commits": 1712,
     "stars": 12
   },
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 5329740,
-      "share": 0.8512754101335146,
+      "bytes": 5413991,
+      "share": 0.8521168702107694,
       "color": "#f1e05a"
     },
     {
       "name": "TypeScript",
       "bytes": 702870,
-      "share": 0.11226362777931821,
+      "share": 0.11062585522677143,
       "color": "#3178c6"
     },
     {
       "name": "CSS",
-      "bytes": 145157,
-      "share": 0.02318473034496065,
+      "bytes": 149739,
+      "share": 0.02356766533754681,
       "color": "#563d7c"
     },
     {
       "name": "HTML",
-      "bytes": 37015,
-      "share": 0.0059121006477036485,
+      "bytes": 38237,
+      "share": 0.006018183769838034,
       "color": "#e34c26"
     },
     {
       "name": "Rust",
       "bytes": 13168,
-      "share": 0.002103216029419469,
+      "share": 0.002072532988498764,
       "color": "#dea584"
     },
     {
       "name": "PowerShell",
       "bytes": 11234,
-      "share": 0.001794314161186081,
+      "share": 0.0017681375753945258,
       "color": "#5391fe"
     },
     {
       "name": "Shell",
       "bytes": 9192,
-      "share": 0.00146816234374421,
+      "share": 0.0014467438662120777,
       "color": "#89e051"
     },
     {
       "name": "PLpgSQL",
-      "bytes": 4573,
-      "share": 0.0007304075715777059,
+      "bytes": 7208,
+      "share": 0.0011344788715901496,
       "color": "#336790"
     },
     {
       "name": "GLSL",
       "bytes": 4270,
-      "share": 0.0006820118807427956,
+      "share": 0.0006720622616107019,
       "color": "#5686a5"
     },
     {
       "name": "HCL",
       "bytes": 2616,
-      "share": 0.0004178321030499188,
+      "share": 0.000411736505005526,
       "color": "#844FBA"
     },
     {
       "name": "Dockerfile",
       "bytes": 1053,
-      "share": 0.00016818700478270815,
+      "share": 0.00016573338676254546,
       "color": "#384d54"
     }
   ]
