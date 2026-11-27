@@ -1,78 +1,78 @@
 {
-  "generatedAt": "2026-11-26T06:31:09.031Z",
+  "generatedAt": "2026-11-27T06:31:21.259Z",
   "username": "ma-cook",
   "repositoryCount": 27,
   "forksExcluded": true,
   "totals": {
     "years": 6,
-    "commits": 1722,
+    "commits": 1734,
     "stars": 12
   },
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 5452015,
-      "share": 0.8527474125944128,
+      "bytes": 5572614,
+      "share": 0.8545204317827562,
       "color": "#f1e05a"
     },
     {
       "name": "TypeScript",
       "bytes": 702870,
-      "share": 0.10993560617317356,
+      "share": 0.10778007877221459,
       "color": "#3178c6"
     },
     {
       "name": "CSS",
-      "bytes": 151074,
-      "share": 0.02362942189452676,
+      "bytes": 158340,
+      "share": 0.024280304569539824,
       "color": "#563d7c"
     },
     {
       "name": "HTML",
       "bytes": 38770,
-      "share": 0.00606399967466806,
+      "share": 0.005945101731470627,
       "color": "#e34c26"
     },
     {
       "name": "Rust",
       "bytes": 13168,
-      "share": 0.0020596014370912823,
+      "share": 0.002019218457570421,
       "color": "#dea584"
     },
     {
       "name": "PowerShell",
       "bytes": 11234,
-      "share": 0.001757105296497833,
+      "share": 0.0017226534137565392,
       "color": "#5391fe"
     },
     {
       "name": "Shell",
       "bytes": 9192,
-      "share": 0.0014377169205454941,
+      "share": 0.0014095273437110653,
       "color": "#89e051"
     },
     {
       "name": "PLpgSQL",
       "bytes": 7208,
-      "share": 0.0011274003006192254,
+      "share": 0.0011052951581232984,
       "color": "#336790"
     },
     {
       "name": "GLSL",
       "bytes": 4270,
-      "share": 0.0006678689350227654,
+      "share": 0.0006547739074898007,
       "color": "#5686a5"
     },
     {
       "name": "HCL",
       "bytes": 2616,
-      "share": 0.0004091674786931041,
+      "share": 0.00040114485760967656,
       "color": "#844FBA"
     },
     {
       "name": "Dockerfile",
       "bytes": 1053,
-      "share": 0.00016469929474917377,
+      "share": 0.00016147000575802346,
       "color": "#384d54"
     }
   ]
