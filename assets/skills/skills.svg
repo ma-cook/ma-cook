@@ -5,7 +5,7 @@
   <rect width="1200" height="286" rx="14" fill="#0d1117"/>
   <rect x="0.5" y="0.5" width="1199" height="285" rx="14" fill="none" stroke="#30363d"/>
   <text x="40" y="50" font-size="26" font-weight="700" fill="#e6edf3" letter-spacing="1">LANGUAGES IN PUBLIC REPOS</text>
-  <text x="40" y="76" font-size="14" fill="#8b949e">27 original repositories · ranked by bytes · updated 2026-11-27</text>
+  <text x="40" y="76" font-size="14" fill="#8b949e">27 original repositories · ranked by bytes · updated 2026-11-28</text>
     <rect x="40" y="104" width="208" height="38" rx="19" fill="#161b22" stroke="#f1e05a" stroke-opacity="0.55"/>
     <circle cx="61" cy="123" r="6" fill="#f1e05a"/>
     <text x="76" y="129" font-size="15" font-weight="600" fill="#e6edf3">JavaScript</text>
@@ -13,11 +13,11 @@
     <rect x="260" y="104" width="208" height="38" rx="19" fill="#161b22" stroke="#3178c6" stroke-opacity="0.55"/>
     <circle cx="281" cy="123" r="6" fill="#3178c6"/>
     <text x="296" y="129" font-size="15" font-weight="600" fill="#e6edf3">TypeScript</text>
-    <text x="454" y="129" font-size="14" font-weight="600" text-anchor="end" fill="#3178c6">10.8%</text>
+    <text x="454" y="129" font-size="14" font-weight="600" text-anchor="end" fill="#3178c6">10.6%</text>
     <rect x="480" y="104" width="168" height="38" rx="19" fill="#161b22" stroke="#563d7c" stroke-opacity="0.55"/>
     <circle cx="501" cy="123" r="6" fill="#563d7c"/>
     <text x="516" y="129" font-size="15" font-weight="600" fill="#e6edf3">CSS</text>
-    <text x="634" y="129" font-size="14" font-weight="600" text-anchor="end" fill="#563d7c">2.4%</text>
+    <text x="634" y="129" font-size="14" font-weight="600" text-anchor="end" fill="#563d7c">2.5%</text>
     <rect x="660" y="104" width="168" height="38" rx="19" fill="#161b22" stroke="#e34c26" stroke-opacity="0.55"/>
     <circle cx="681" cy="123" r="6" fill="#e34c26"/>
     <text x="696" y="129" font-size="15" font-weight="600" fill="#e6edf3">HTML</text>
